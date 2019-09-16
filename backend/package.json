@@ -1,0 +1,26 @@
+{
+  "name": "front_end_news_site",
+  "version": "1.0.0",
+  "description": "Front end News website",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.2",
+    "@hapi/inert": "^5.2.2",
+    "handlebars": "^4.2.0",
+    "node-fetch": "^2.6.0",
+    "vision": "^5.4.4"
+  }
+}

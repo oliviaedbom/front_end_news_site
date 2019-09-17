@@ -12,6 +12,8 @@ module.exports = function (api) {
     ['@babel/plugin-proposal-class-properties', { spec: true }],
   ];
 
+  // JEST runs in node, and does not have access to all those browser features.
+  // so we need to fake a few things here and tell babel how to compile your tests.
   const env = {
     test: {
       plugins: ['dynamic-import-node'],

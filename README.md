@@ -40,3 +40,14 @@ and execute the following commands:
 ![frond-end start](https://i.imgur.com/bqAIqDY.jpg)
 
 And that's it! You can now start developing awesome front-end stuff!!!
+
+
+## Stopping
+Want to stop running the server?
+
+hit [CTRL] + [C] (jep also CTRL on a mac) in both windows and safely `exit` out.
+
+## Starting
+There's no need to install your project all the time, instead just do like this:
+
+open 2 terminal windows, navigate (through `cd`) one window to the `backend` folder in this project and the other to `frontend`. With that done execute `npm start`in both windows.

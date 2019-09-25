@@ -1,4 +1,5 @@
 const path = require('path');
+const babel = require('./babel.config');
 
 module.exports = {
   mode: 'development',
@@ -9,6 +10,17 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.m?js$/,
+        exclude: babel.exclude,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: babel.presets,
+            plugins: babel.plugins,
+          },
+        },
+      },
     ],
   },
 };

@@ -7,6 +7,9 @@ module.exports = function (api) {
   const presets = ['@babel/preset-env'];
 
   const plugins = [
+    ['@babel/plugin-transform-runtime',
+      { regenerator: true },
+    ],
     '@babel/syntax-dynamic-import',
     '@babel/plugin-proposal-object-rest-spread',
     ['@babel/plugin-proposal-class-properties', { spec: true }],

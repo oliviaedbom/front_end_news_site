@@ -19,7 +19,7 @@
   "dependencies": {
     "@hapi/hapi": "^18.3.2",
     "@hapi/inert": "^5.2.2",
-    "handlebars": "^4.2.0",
+    "handlebars": "^4.5.3",
     "node-fetch": "^2.6.0",
     "vision": "^5.4.4"
   }

@@ -20,7 +20,7 @@
     "@hapi/hapi": "^18.3.2",
     "@hapi/inert": "^5.2.2",
     "handlebars": "^4.2.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "vision": "^5.4.4"
   }
 }
